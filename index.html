@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claudia - UI/UX Designer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flaticon/2.1.1/css/flaticon.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+ 
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Claudia.</a>
+    <button class="navbar-toggler" type="button" id="sidebarToggle">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home-section">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-section">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services-section">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects-section">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#blog-section">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonial-section">Testimonial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-section">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Sidebar for Mobile -->
+<div class="sidebar" id="sidebar">
+  <button class="close-btn" id="closeSidebar">&times;</button>
+  <ul>
+    <li><a href="#home-section">Home</a></li>
+    <li><a href="#about-section">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#services-section">Services</a></li>
+    <li><a href="#projects-section">Projects</a></li>
+    <li><a href="#blog-section">Blog</a></li>
+    <li><a href="#testimonial-section">Testimonial</a></li>
+    <li><a href="#contact-section">Contact</a></li>
+  </ul>
+</div>
+
+<!-- Hero Section -->
+<div class="hero" id="home-section">
+  <div class="content">
+    <span class="text-muted">WE DESIGN & BUILD BRANDS</span>
+    <h1 class="hero-heading">
+      <!-- Use a <span> for the highlighted name -->
+      Hi, I am <span class="highlighted-name">Claudia</span> This is my favorite work.
+    </h1>
+    <a href="#" class="btn btn-primary">Hire me</a>
+    <a href="#" class="btn btn-outline-primary">Download CV</a>
+  </div>
+  <!-- Image Section -->
+  <div class="image-section">
+    <div class="circle big-circle"></div>
+    <div class="circle small-circle"></div>
+    <img src="image/woman1.jpg" alt="Hero Image" class="hero-image">
+  </div>
+</div>
+
+
+
+
+  <!-- Counter Section -->
+  <section class="counter-section fade-in" id="about-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="counter-box">
+          <i class="fas fa-briefcase fa-3x mb-3"></i>
+          <h3 class="counter" data-target="750">0</h3>
+          <p>Projects Completed</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="counter-box">
+          <i class="fas fa-users fa-3x mb-3"></i>
+          <h3 class="counter" data-target="568">0</h3>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="counter-box">
+          <i class="fas fa-coffee fa-3x mb-3"></i>
+          <h3 class="counter" data-target="478">0</h3>
+          <p>Cups of Coffee</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="counter-box">
+          <i class="fas fa-calendar-alt fa-3x mb-3"></i>
+          <h3 class="counter" data-target="780">0</h3>
+          <p>Years Experience</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Me Section -->
+<section class="ftco-about ftco-section" id="about-section">
+  <div class="container">
+    <div class="row d-flex no-gutters align-items-center">
+      <div class="col-md-6 col-lg-5 d-flex justify-content-center">
+        <div class="img-container">
+          <img src="image/woman1.jpg" alt="About Me Image" class="about-img">
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-7 pl-md-4 pl-lg-5 py-5">
+        <div class="py-md-5">
+          <div class="row justify-content-start pb-3">
+            <div class="col-md-12 heading-section ftco-animate">
+              <span class="subheading">MY INTRO</span>
+              <h2 class="mb-4">About Me</h2>
+              <p class="lead">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+              <ul class="about-info mt-4 px-md-0 px-2">
+                <li class="d-flex"><span class="font-weight-bold">Name:</span> <span class="ml-2">Claudia Nowitzki</span></li>
+                <li class="d-flex"><span class="font-weight-bold">Date of birth:</span> <span class="ml-2">January 01, 1990</span></li>
+                <li class="d-flex"><span class="font-weight-bold">Address:</span> <span class="ml-2">Texas ,USA</span></li>
+                <li class="d-flex"><span class="font-weight-bold">Zip code:</span> <span class="ml-2">1000</span></li>
+                <li class="d-flex"><span class="font-weight-bold">Email:</span> <span class="ml-2">claudia@gmail.com</span></li>
+                <li class="d-flex"><span class="font-weight-bold">Phone: </span> <span class="ml-2">+1-2234-5678-9-0</span></li>
+              </ul>
+            </div>
+            <div class="col-md-12 mt-4">
+              <div class="my-interest d-lg-flex w-100 justify-content-between">
+                <div class="interest-wrap d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <i class="fas fa-music"></i>
+                  </div>
+                  <div class="text ml-2">Music</div>
+                </div>
+                <div class="interest-wrap d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <i class="fas fa-plane"></i>
+                  </div>
+                  <div class="text ml-2">Travel</div>
+                </div>
+                <div class="interest-wrap d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <i class="fas fa-film"></i>
+                  </div>
+                  <div class="text ml-2">Movie</div>
+                </div>
+                <div class="interest-wrap d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <i class="fas fa-football-ball"></i>
+                  </div>
+                  <div class="text ml-2">Sports</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+  <div class="container">
+      <span class="subheading text-center">SKILLS</span> <!-- Subheading -->
+      <h2 class="text-center mb-3">My Skills</h2>
+      <p class="text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+     
+      <div class="row text-center">
+          <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card p-4 skill-card">
+                  <h5>CSS</h5>
+                  <div class="circular-progress" data-percentage="95">
+                      <svg class="progress-circle" width="120" height="120">
+                          <circle cx="60" cy="60" r="54"></circle>
+                          <circle cx="60" cy="60" r="54" class="bar"></circle>
+                      </svg>
+                      <span class="percentage">95%</span>
+                  </div>
+                  <div class="skill-info d-flex justify-content-between align-items-center">
+                      <div class="info-item">
+                          <p class="small">28%</p>
+                          <p class="small">Last week</p>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="info-item">
+                          <p class="small">60%</p>
+                          <p class="small">Last month</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card p-4 skill-card">
+                  <h5>HTML</h5>
+                  <div class="circular-progress" data-percentage="98">
+                      <svg class="progress-circle" width="120" height="120">
+                          <circle cx="60" cy="60" r="54"></circle>
+                          <circle cx="60" cy="60" r="54" class="bar"></circle>
+                      </svg>
+                      <span class="percentage">98%</span>
+                  </div>
+                  <div class="skill-info d-flex justify-content-between align-items-center">
+                      <div class="info-item">
+                          <p class="small">28%</p>
+                          <p class="small">Last week</p>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="info-item">
+                          <p class="small">60%</p>
+                          <p class="small">Last month</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card p-4 skill-card">
+                  <h5>jQuery</h5>
+                  <div class="circular-progress" data-percentage="68">
+                      <svg class="progress-circle" width="120" height="120">
+                          <circle cx="60" cy="60" r="54"></circle>
+                          <circle cx="60" cy="60" r="54" class="bar"></circle>
+                      </svg>
+                      <span class="percentage">68%</span>
+                  </div>
+                  <div class="skill-info d-flex justify-content-between align-items-center">
+                      <div class="info-item">
+                          <p class="small">28%</p>
+                          <p class="small">Last week</p>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="info-item">
+                          <p class="small">60%</p>
+                          <p class="small">Last month</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card p-4 skill-card">
+                  <h5>WORDPRESS</h5>
+                  <div class="circular-progress" data-percentage="30">
+                      <svg class="progress-circle" width="120" height="120">
+                          <circle cx="60" cy="60" r="54"></circle>
+                          <circle cx="60" cy="60" r="54" class="bar"></circle>
+                      </svg>
+                      <span class="percentage">30%</span>
+                  </div>
+                  <div class="skill-info d-flex justify-content-between align-items-center">
+                      <div class="info-item">
+                          <p class="small">28%</p>
+                          <p class="small">Last week</p>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="info-item">
+                          <p class="small">60%</p>
+                          <p class="small">Last month</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card p-4 skill-card">
+                  <h5>PHOTOSHOP</h5>
+                  <div class="circular-progress" data-percentage="70">
+                      <svg class="progress-circle" width="120" height="120">
+                          <circle cx="60" cy="60" r="54"></circle>
+                          <circle cx="60" cy="60" r="54" class="bar"></circle>
+                      </svg>
+                      <span class="percentage">75%</span>
+                  </div>
+                  <div class="skill-info d-flex justify-content-between align-items-center">
+                      <div class="info-item">
+                          <p class="small">28%</p>
+                          <p class="small">Last week</p>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="info-item">
+                          <p class="small">60%</p>
+                          <p class="small">Last month</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card p-4 skill-card">
+                  <h5>SEO</h5>
+                  <div class="circular-progress" data-percentage="89">
+                      <svg class="progress-circle" width="120" height="120">
+                          <circle cx="60" cy="60" r="54"></circle>
+                          <circle cx="60" cy="60" r="54" class="bar"></circle>
+                      </svg>
+                      <span class="percentage">89%</span>
+                  </div>
+                  <div class="skill-info d-flex justify-content-between align-items-center">
+                      <div class="info-item">
+                          <p class="small">28%</p>
+                          <p class="small">Last week</p>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="info-item">
+                          <p class="small">60%</p>
+                          <p class="small">Last month</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+          
+
+<!-- Services Section -->
+  <!-- Services Section -->
+  <section class="ftco-section" id="services-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 heading-section text-center">
+                <span class="subheading">I am great at</span>
+                <h2 class="mb-4">We do awesome services for our clients</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="media block-6 services d-block bg-white rounded-lg shadow">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">Web Design</h3>
+                        <p>A small river named Duden flows by their place and supplies.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="media block-6 services d-block bg-white rounded-lg shadow">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">Web Application</h3>
+                        <p>A small river named Duden flows by their place and supplies.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="media block-6 services d-block bg-white rounded-lg shadow">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">Web Development</h3>
+                        <p>A small river named Duden flows by their place and supplies.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="media block-6 services d-block bg-white rounded-lg shadow">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">Banner Design</h3>
+                        <p>A small river named Duden flows by their place and supplies.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="media block-6 services d-block bg-white rounded-lg shadow">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">Branding</h3>
+                        <p>A small river named Duden flows by their place and supplies.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="media block-6 services d-block bg-white rounded-lg shadow">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <i class="fas fa-icons"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">Icon Design</h3>
+                        <p>A small river named Duden flows by their place and supplies.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="media block-6 services d-block bg-white rounded-lg shadow">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">Graphic Design</h3>
+                        <p>A small river named Duden flows by their place and supplies.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="media block-6 services d-block bg-white rounded-lg shadow">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">SEO</h3>
+                        <p>A small river named Duden flows by their place and supplies.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Hire Me Section -->
+<section class="ftco-hireme">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-md-8 col-lg-8 d-flex align-items-center">
+        <div class="w-100 py-4">
+          <h2>Have a project on your mind.</h2>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly.</p>
+          <p class="mb-0"><a href="#" class="btn btn-white py-3 px-4">Contact me</a></p>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex align-items-end">
+        <img src="image/author.png" class="img-fluid" alt="Author Image">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Project section-->
+<section class="ftco-section ftco-project" id="projects-section">
+  <div class="container-fluid px-md-4">
+    <div class="row justify-content-center pb-5">
+      <div class="col-md-12 heading-section text-center ftco-animate">
+        <span class="subheading">Accomplishments</span>
+        <h2 class="mb-4">Our Projects</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(image/work-1.jpg);">
+          <div class="overlay"></div>
+          <div class="text text-center p-4">
+            <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+            <span>Web Design</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(image/work-2.jpg);">
+          <div class="overlay"></div>
+          <div class="text text-center p-4">
+            <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+            <span>Web Design</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(image/work-3.jpg);">
+          <div class="overlay"></div>
+          <div class="text text-center p-4">
+            <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+            <span>Web Design</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(image/work-4.jpg);">
+          <div class="overlay"></div>
+          <div class="text text-center p-4">
+            <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+            <span>Web Design</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(image/work-5.jpg);">
+          <div class="overlay"></div>
+          <div class="text text-center p-4">
+            <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+            <span>Web Design</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(image/work-6.jpg);">
+          <div class="overlay"></div>
+          <div class="text text-center p-4">
+            <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+            <span>Web Design</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(image/work-7.jpg);">
+          <div class="overlay"></div>
+          <div class="text text-center p-4">
+            <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+            <span>Web Design</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(image/work-8.jpg);">
+          <div class="overlay"></div>
+          <div class="text text-center p-4">
+            <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+            <span>Web Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Blog Section -->
+<section class="services-section" id="blog-section">
+  <h2 class="section-title">Our Blog</h2>
+  <div class="services-container">
+    <div class="service-card">
+      <div class="icon">
+        <img src="image/blog1.jpg" alt="Blog Image 1">
+      </div>
+      <span class="meta-info">July 03, 2020 | Admin | <span class="meta-chat">3 Comments</span></span>
+      <h3>Why Lead Generation is Key for Business Growth</h3>
+      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+     
+      <a href="blog.html" class="btn btn-primary read-more">Read More</a>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">
+        <img src="image/blog2.jpg" alt="Blog Image 2">
+      </div>
+      <span class="meta-info">July 05, 2020 | Admin | <span class="meta-chat">5 Comments</span></span>
+      <h3>Understanding Digital Marketing Strategies</h3>
+      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+      
+      <a href="blog.html" class="btn btn-primary read-more">Read More</a>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">
+        <img src="image/blog3.jpg" alt="Blog Image 3">
+      </div>
+      <span class="meta-info">July 10, 2020 | Admin | <span class="meta-chat">8 Comments</span></span>
+      <h3>Effective SEO Techniques Marketing  for 2023</h3>
+      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+     
+      <a href="blog.html" class="btn btn-primary read-more">Read More</a>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- testimonial section -->
+  <!-- Testimonial Section -->
+  <section class="ftco-section" id="testimonial-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-7 heading-section text-center">
+          <span class="subheading">Testimonials</span>
+          <h2 class="mb-4">What Our Clients Say</h2>
+          <p>Here are some testimonials from our valued clients.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="face front-face">
+              <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+                alt="" class="profile">
+              <div class="pt-3 text-uppercase name">
+                Robert Garrison
+              </div>
+              <div class="designation">Android Developer</div>
+            </div>
+            <div class="face back-face">
+              <span class="fas fa-quote-left"></span>
+              <div class="testimonial">
+                I made back the purchase price in just 48 hours! Thank you for making it painless,
+                pleasant.
+                The service was excellent. I will refer everyone I know.
+              </div>
+              <span class="fas fa-quote-right"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="face front-face">
+              <img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                alt="" class="profile">
+              <div class="pt-3 text-uppercase name">
+                Jeffery Kennan
+              </div>
+              <div class="designation">Full Stack Developer</div>
+            </div>
+            <div class="face back-face">
+              <span class="fas fa-quote-left"></span>
+              <div class="testimonial">
+                Really good, you have saved our business! I made back the purchase price in just 48 hours!
+                man, this thing is getting better and better as I learn more about it.
+              </div>
+              <span class="fas fa-quote-right"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="face front-face">
+              <img src="https://images.unsplash.com/photo-1614574762522-6ac2fbba2208?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjY2fHxtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                alt="" class="profile">
+              <div class="pt-3 text-uppercase name">
+                Issac Maxwell
+              </div>
+              <div class="designation">Finance Director</div>
+            </div>
+            <div class="face back-face">
+              <span class="fas fa-quote-left"></span>
+              <div class="testimonial">
+                Account keeper is the most valuable business research we have EVER purchased. Without
+                this service, we would have gone bankrupt by now.
+              </div>
+              <span class="fas fa-quote-right"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+
+
+  <!-- Contact section -->
+<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-7 heading-section text-center ftco-animate">
+        <span class="subheading">Contact us</span>
+        <h2 class="mb-4">Have a Project?</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      </div>
+    </div>
+
+    <div class="row block-9">
+      <div class="col-md-8">
+        <form action="#" class="bg-light p-4 p-md-5 contact-form">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+            </div>
+          </div>
+        </form>
+        
+      </div>
+
+      <div class="col-md-4 d-flex pl-md-5">
+        <div class="row">
+          <div class="dbox w-100 d-flex">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa fa-map-marker"></span>
+            </div>
+            <div class="text">
+              <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+            </div>
+          </div>
+          <div class="dbox w-100 d-flex">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa fa-phone"></span>
+            </div>
+            <div class="text">
+              <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+            </div>
+          </div>
+          <div class="dbox w-100 d-flex">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa fa-paper-plane"></span>
+            </div>
+            <div class="text">
+              <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+            </div>
+          </div>
+          <div class="dbox w-100 d-flex">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa fa-globe"></span>
+            </div>
+            <div class="text">
+              <p><span>Website</span> <a href="#">yoursite.com</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- <div id="map" class="map"></div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Footer section -->
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-3 col-md-6 footer-col">
+              <h5>Lets talk about</h5>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <button class="btn">Learn more</button>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-col">
+              <h5>Links</h5>
+              <ul>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> About</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> Services</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> Projects</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> Contact</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-col">
+              <h5>Services</h5>
+              <ul>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> Web Design</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> Web Development</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> Business Strategy</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> Data Analysis</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> Graphic Design</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-col">
+              <h5>Have a Questions?</h5>
+              <address>
+                  <i class="fas fa-map-marker-alt"></i> 203 Fake St. Mountain View, San Francisco, California, USA<br>
+                  <i class="fas fa-phone"></i> <a href="tel:+2392929210">+2 392 3929 210</a><br>
+                  <i class="fas fa-envelope"></i> <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+              </address>
+              <div class="social-links">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-12 text-center copyright">
+              <p>Copyright ©2024 All rights reserved | This template is made with <i class="fas fa-heart"></i> by Raihana</p>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- End Footer -->
+
+
+ 
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/progressbar.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+ 
+
+</body>
+</html>
